@@ -1,0 +1,90 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/wp7046960.jpg") no-repeat center center/cover ;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(158, 153, 153, 0.3);
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  form .k {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  form input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .bi {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  
+  .bi:hover {
+    background: darkred;
+  }
+  
+  .lp {
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s ease-in;
+  }
+  
+  .lp:hover {
+    color: red;
+  }
+   
+  .error-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .error-popup button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

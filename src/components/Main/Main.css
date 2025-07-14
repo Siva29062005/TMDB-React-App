@@ -1,0 +1,69 @@
+.main{
+    margin-left: 50px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.main h3{
+    color: black;
+}
+.title{
+    display: flex;
+}
+.l{
+    height: 27px;
+    width: 5px;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: red;
+}
+.cards{
+   margin-top: 25px;
+   margin-bottom: 35px;
+    height: 290px;
+    width: 210px;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.2s ease;
+}
+.cards img{
+    height: inherit; 
+    width:inherit; 
+    border-radius: 10px;
+    transition: 0.2s ease-out;
+}
+.scroll{
+    display: flex;
+    gap:10px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin-right:50px ;
+}
+.scroll::-webkit-scrollbar-track{
+    background-color: aqua;
+}
+.cards h2{
+    z-index: 100;
+    color:white;
+    position: relative;
+    top: -280px;
+    display: none;
+    transition: 0.2s ease-in;
+    font-weight: 500;
+    font-size: 15px;
+}
+.cards:hover img{
+    opacity: 50%;
+}
+.cards:hover h2{
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.cards:hover{
+    scale: 1.05;
+}

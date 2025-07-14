@@ -1,0 +1,60 @@
+*{
+    color: white;
+}
+.hero{
+    height: 90vh;
+    width: 100%;
+    margin-top: -5%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+h1{
+    font-size: 40px;
+}
+.content h5{
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.play{
+    width: 17px;
+    padding-right: 5px;
+    filter: invert();
+}
+.content{
+    margin-left: 70px ;
+    margin-top: 250px;
+    width: 700px;
+}
+.butt{
+    display: flex;
+    gap: 15px;
+}
+.buttu{
+    background-color: rgba(66, 63, 63, 0.726);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding:10px 25px;
+    border-radius: 5px;
+}
+.content p{
+    font-size: 13px;
+    margin:20px auto;
+}
+.but{
+    background-color: rgba(235, 63, 63, 0.932);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding:10px 25px;
+    border-radius: 5px;
+}

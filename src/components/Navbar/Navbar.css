@@ -1,0 +1,94 @@
+.navbar{
+    height: 65px;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar{
+    display: flex;
+}
+.bar img{
+    width: 150px;
+    height: 73px;
+    margin: auto 15px;
+}
+.bar ul .movies,.bar ul .tvshows,.bar ul .people,.bar ul .more{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    padding:25px 15px;
+    font-weight: 501;
+    font-size: 14px;
+    cursor: pointer;
+}
+.others{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.others a img{
+    width: 23px;
+    filter:invert();
+    margin: 5px 50px auto 20px;
+    cursor: pointer;
+}
+.movies,.tvshows,.people,.more{
+    position: relative;
+}
+.movie{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: max-content;
+    background-color: rgba(255, 255, 255, 0.89);
+    color: black;
+    padding: 8px 13px;
+    border-radius: 5px;
+    z-index: 100;
+    display: none;
+}
+.movie .list li{
+    color: rgb(0, 0, 0);
+    display: flex;
+    cursor: pointer;
+    font-weight: none;
+    font-size: 14px;
+    margin: 4px auto;
+}
+.bar .movies:hover .movie{
+    display: block;
+}
+.i{
+    height: 30px;
+    padding-left: 15px;
+    padding-right:15px ;
+    border: none;
+    font-size: 12px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    background: transparent;
+}
+.i:hover{
+    background-color:  rgba(235, 63, 63, 0.877);
+    scale: 1.03;
+}
+.i:hover h3{
+    scale: 1.01;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .username {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+  }
+  
